@@ -27,9 +27,4 @@ jobs:  # What to do
       - name: "Run tests"
         run: pytest
 
-        env:
-          DATABASE_NAME: ${{ secrets.DATABASE_NAME }}
-          DATABASE_USERNAME: ${{ secrets.DATABASE_USERNAME }}
-          DATABASE_PASSWORD: ${{ secrets.DATABASE_PASSWORD }}
-          DATABASE_IP: ${{ secrets.DATABASE_IP }}
-          DATABASE_PORT: ${{ secrets.DATABASE_PORT }}
+        
